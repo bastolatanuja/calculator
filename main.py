@@ -57,8 +57,8 @@ button_add=Button(root,text="+",padx=65,pady=20,command=button_add)
 button_sub=Button(root,text="-",padx=65,pady=20,command=button_sub)
 button_mul=Button(root,text="*",padx=65,pady=20,command=button_mul)
 button_div=Button(root,text="/",padx=65,pady=20,command=button_div)
-button_equal=Button(root,text="=",padx=91,pady=20,command=button_equal)
-button_clear=Button(root,text="Clear",padx=91,pady=20,command=button_clear)
+button_equal=Button(root,text="=",padx=65,pady=20,command=button_equal)
+button_clear=Button(root,text="Clear",padx=80,pady=20,command=button_clear)
 
 #putting buttons on the screen
 button_1.grid(row=3, column=0)
