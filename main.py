@@ -3,7 +3,7 @@ from  tkinter import *
 root=Tk()
 #defining title of the project
 root.title("simple calculator")
-e=Entry(root, width=35,borderwidth=5)
+e=Entry(root, width=35,borderwidth=5,bg='powder blue')
 e.grid(row=0,column=0,columnspan=3,padx= 10,pady = 10)
 
 def button_click(number):
@@ -58,22 +58,22 @@ def button_equal():
     if result=='div':
         e.insert(0, f_num /int(second_number))
 
-button_1=Button(root,text="1",padx=65,pady=20,command=lambda:button_click(1))
-button_2=Button(root,text="2",padx=65,pady=20,command=lambda:button_click(2))
-button_3=Button(root,text="3",padx=65,pady=20,command=lambda:button_click(3))
-button_4=Button(root,text="4",padx=65,pady=20,command=lambda:button_click(4))
-button_5=Button(root,text="5",padx=65,pady=20,command=lambda:button_click(5))
-button_6=Button(root,text="6",padx=65,pady=20,command=lambda:button_click(6))
-button_7=Button(root,text="7",padx=65,pady=20,command=lambda:button_click(7))
-button_8=Button(root,text="8",padx=65,pady=20,command=lambda:button_click(8))
-button_9=Button(root,text="9",padx=65,pady=20,command=lambda:button_click(9))
-button_0=Button(root,text="0",padx=65,pady=20,command=lambda:button_click(0))
-button_add=Button(root,text="+",padx=65,pady=20,command=button_add)
-button_sub=Button(root,text="-",padx=65,pady=20,command=button_sub)
-button_mul=Button(root,text="*",padx=65,pady=20,command=button_mul)
-button_div=Button(root,text="/",padx=65,pady=20,command=button_div)
-button_equal=Button(root,text="=",padx=65,pady=20,command=button_equal)
-button_clear=Button(root,text="Clear",padx=80,pady=20,command=button_clear)
+button_1=Button(root,text="1",padx=65,pady=20,fg='purple',command=lambda:button_click(1))
+button_2=Button(root,text="2",padx=65,pady=20,fg='purple',command=lambda:button_click(2))
+button_3=Button(root,text="3",padx=65,pady=20,fg='purple',command=lambda:button_click(3))
+button_4=Button(root,text="4",padx=65,pady=20,fg='red',command=lambda:button_click(4))
+button_5=Button(root,text="5",padx=65,pady=20,fg='red',command=lambda:button_click(5))
+button_6=Button(root,text="6",padx=65,pady=20,fg='red',command=lambda:button_click(6))
+button_7=Button(root,text="7",padx=65,pady=20,fg='green',command=lambda:button_click(7))
+button_8=Button(root,text="8",padx=65,pady=20,fg='green',command=lambda:button_click(8))
+button_9=Button(root,text="9",padx=65,pady=20,fg='green',command=lambda:button_click(9))
+button_0=Button(root,text="0",padx=65,pady=20,bg='grey',command=lambda:button_click(0))
+button_add=Button(root,text="+",padx=65,pady=20,fg='blue',command=button_add)
+button_sub=Button(root,text="-",padx=65,pady=20,fg='blue',command=button_sub)
+button_mul=Button(root,text="*",padx=65,pady=20,fg='blue',command=button_mul)
+button_div=Button(root,text="/",padx=65,pady=20,fg='blue',command=button_div)
+button_equal=Button(root,text="=",padx=65,pady=20,fg='blue',command=button_equal)
+button_clear=Button(root,text="Clear",padx=80,pady=20,bg='red',command=button_clear)
 
 #putting buttons on the screen
 button_1.grid(row=3, column=0)
