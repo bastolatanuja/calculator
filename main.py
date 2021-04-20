@@ -17,31 +17,46 @@ def button_clear():
 def button_add():
     first_number=e.get()
     global f_num
+    global result
+    result='add'
     f_num=int(first_number)
     e.delete(0,END)
 
 def button_sub():
     first_number=e.get()
     global f_num
+    global result
+    result='sub'
     f_num=int(first_number)
     e.delete(0,END)
 
 def button_mul():
     first_number=e.get()
     global f_num
+    global result
+    result='mul'
     f_num=int(first_number)
     e.delete(0,END)
 
 def button_div():
     first_number=e.get()
     global f_num
+    global result
+    result='div'
     f_num=int(first_number)
     e.delete(0,END)
 
 def button_equal():
     second_number=e.get()
     e.delete(0,END)
-    e.insert(0,f_num+int(second_number))
+    if result=='add':
+        e.insert(0,f_num+int(second_number))
+    if result=='sub':
+        e.insert(0, f_num - int(second_number))
+    if result=='mul':
+        e.insert(0, f_num * int(second_number))
+    if result=='div':
+        e.insert(0, f_num / int(second_number))
 
 button_1=Button(root,text="1",padx=65,pady=20,command=lambda:button_click(1))
 button_2=Button(root,text="2",padx=65,pady=20,command=lambda:button_click(2))
