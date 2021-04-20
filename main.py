@@ -56,7 +56,7 @@ def button_equal():
     if result=='mul':
         e.insert(0, f_num * int(second_number))
     if result=='div':
-        e.insert(0, f_num / int(second_number))
+        e.insert(0, f_num /int(second_number))
 
 button_1=Button(root,text="1",padx=65,pady=20,command=lambda:button_click(1))
 button_2=Button(root,text="2",padx=65,pady=20,command=lambda:button_click(2))
