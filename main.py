@@ -18,7 +18,7 @@ def button_click(number):
 def button_clear():
     global val
     val=" "
-    data.set("")
+    data.set(" ")
 
 
 def button_equal():
