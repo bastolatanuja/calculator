@@ -3,7 +3,7 @@ from  tkinter import *
 root=Tk()
 #defining title of the project
 root.title("simple calculator")
-e=Entry(root, width=35,borderwidth=5,bg='powder blue')
+e=Entry(root, width=60,borderwidth=30,bg='powder blue')
 e.grid(row=0,column=0,columnspan=3,padx= 10,pady = 10)
 
 def button_click(number):
@@ -67,12 +67,12 @@ button_6=Button(root,text="6",padx=65,pady=20,fg='red',command=lambda:button_cli
 button_7=Button(root,text="7",padx=65,pady=20,fg='green',command=lambda:button_click(7))
 button_8=Button(root,text="8",padx=65,pady=20,fg='green',command=lambda:button_click(8))
 button_9=Button(root,text="9",padx=65,pady=20,fg='green',command=lambda:button_click(9))
-button_0=Button(root,text="0",padx=65,pady=20,bg='grey',command=lambda:button_click(0))
+button_0=Button(root,text="0",padx=65,pady=20,fg='green',command=lambda:button_click(0))
 button_add=Button(root,text="+",padx=65,pady=20,fg='blue',command=button_add)
 button_sub=Button(root,text="-",padx=65,pady=20,fg='blue',command=button_sub)
 button_mul=Button(root,text="*",padx=65,pady=20,fg='blue',command=button_mul)
 button_div=Button(root,text="/",padx=65,pady=20,fg='blue',command=button_div)
-button_equal=Button(root,text="=",padx=65,pady=20,fg='blue',command=button_equal)
+button_equal=Button(root,text="=",padx=65,pady=20,fg='blue',bg='grey',command=button_equal)
 button_clear=Button(root,text="Clear",padx=80,pady=20,bg='red',command=button_clear)
 
 #putting buttons on the screen
