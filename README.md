@@ -1,5 +1,6 @@
 # calculator
-consist of calculator with additional functions as addition ,subtraction,division,equal.![Capture](https://user-images.githubusercontent.com/78782475/115728574-54f15c00-a3a4-11eb-8119-8e2eb0390126.PNG)
-![Capture 1](https://user-images.githubusercontent.com/78782475/115728619-5de22d80-a3a4-11eb-91e1-aa1b13bff8db.PNG)
-![Capture3](https://user-images.githubusercontent.com/78782475/115728646-62a6e180-a3a4-11eb-96e6-953581d42e6a.PNG)
+consist of calculator with additional functions as addition ,subtraction,division,equal.![Capture 5](https://user-images.githubusercontent.com/78782475/115762147-df48b880-a3c2-11eb-8cd6-268b08a77e94.PNG)
+![Capture 6](https://user-images.githubusercontent.com/78782475/115762161-e243a900-a3c2-11eb-8a84-932514b30ed0.PNG)
+![Capture 7](https://user-images.githubusercontent.com/78782475/115762179-e5d73000-a3c2-11eb-8b31-b06acd20a26d.PNG)
+
 
